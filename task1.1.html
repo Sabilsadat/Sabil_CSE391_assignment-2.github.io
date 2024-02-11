@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSE391 Assignment 2 Task 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Sixtyfour&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap" rel="stylesheet">
+</head>
+<body onload="generateQuote()">
+
+    <div class="quote-box-container">
+        <div class="container">
+            <h2 class="sub-title" style="font-family: Sixtyfour; font-size: xx-large;">Quote Box</h2>
+            <div style="display:flex">
+                <div id="quote-container" class="quote-container">
+                    <span id="quote"></span>
+                </div>
+                <div class="">
+                    <div onclick="changeStyle('box1')" class="box">
+                        <div class="box-1"></div>
+                    </div>
+                    <div onclick="changeStyle('box2')" class="box">
+                        <div class="box-2"></div>
+                    </div>
+                </div>
+
+                <div class="">
+                    <div onclick="changeStyle('box3')" class="box">
+                        <div class="box-3"></div>
+                    </div>
+                    <div onclick="changeStyle('box4')" class="box">
+                        <div class="box-4"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
